@@ -47,6 +47,6 @@ if(computerMove=='kamień' && playerMove =='papier'){
 	}else if (computerMove == 'kamień' && playerMove!= ['1', '2', '3']){
 			printMessage('Nieznany ruch');
 	}else
-	(computerMove == 'nożyce' && playerMove!= ['1', '2', '3']){
+	(computerMove == 'nożyce' && playerMove!= ['1', '2', '3'])
 				printMessage('Nieznany ruch');
-	}
+	
