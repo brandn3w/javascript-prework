@@ -1,6 +1,4 @@
-function getMoveName(argMoveId) {
 
-}
 
 let randomNumber = Math.floor(Math.random() * 3 + 1);
 
