@@ -2,7 +2,7 @@
  let randomNumber = Math.floor(Math.random() * 3 + 1);
 
 
-function getMoveName(argMoveId) 
+function getMoveName(argMoveId) {
   if (argMoveId == "1") 
 	  return 'kamień';
  else if (argMoveId == "2")
@@ -11,6 +11,7 @@ return "papier";
  return "nożyce";
   else 
  return "nieznany ruch";
+};
 
 let computerMove = getMoveName(randomNumber);
 
