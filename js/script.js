@@ -3,19 +3,21 @@
 
 
 function getMoveName(argMoveId) {
-  if (argMoveId == "1") 
+  if (argMoveId == "1") {
 	  return 'kamień';
- else if (argMoveId == "2")
+  } else if (argMoveId == "2"){
 return "papier";
-  else if (argMoveId == "3") 
+   } else if (argMoveId == "3"){
  return "nożyce";
-  else 
+    } else 
  return "nieznany ruch";
-};
+  }
 
-let computerMove = getMoveName(randomNumber);
 
-console.log("Wylosowana liczba to: " + randomNumber);
+
+let argComputerMove = getMoveName(randomNumber);
+
+printMessage("Wylosowana liczba to: " + randomNumber);
 
 
 /* if (randomNumber == 1) {
