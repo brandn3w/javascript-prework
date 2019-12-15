@@ -44,9 +44,4 @@ if(computerMove=='kamień' && playerMove =='papier'){
 		printMessage('Komputer wygrywa');
 	} else if (computerMove == 'papier' && playerMove!= ['1', '2', '3']){
 		printMessage('Nieznany ruch');
-	}else if (computerMove == 'kamień' && playerMove!= ['1', '2', '3']){
-			printMessage('Nieznany ruch');
-	}else
-	(computerMove == 'nożyce' && playerMove!= ['1', '2', '3']){
-				printMessage('Nieznany ruch');
 	}
