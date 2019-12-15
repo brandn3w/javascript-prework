@@ -46,20 +46,6 @@ clearMessages()
       argPlayerMove != 3
     ) {
       printMessage("Nieznany ruch");
-    } else if (
-      argComputerMove == "kamień" &&
-      argPlayerMove != 1 &&
-      argPlayerMove != 2 &&
-      argPlayerMove != 3
-    ) {
-      printMessage("Nieznany ruch");
-    } else if (
-      argComputerMove == "nożyce" &&
-      argPlayerMove != 1 &&
-      argPlayerMove != 2 &&
-      argPlayerMove != 3
-    ) {
-      printMessage("Nieznany ruch");
     } else {
       printMessage("Ty wygrywasz");
     }
